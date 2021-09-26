@@ -1,0 +1,106 @@
+body{
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    background-color:rgb(77, 76, 74);
+    scroll-behavior: smooth;
+    font-family: 'Courier New', Courier, monospace;
+    color:red;
+    text-decoration:underline;
+    transition: 1s;
+    cursor: crosshair;
+}
+body:hover{
+    background-color: red;
+    color: black;
+}
+h2:hover{
+        color:red;
+        transition: 1s;    
+    }
+input{
+    height: 5px;
+    border-radius: 20px;
+    font-size:small;
+    font-weight: bold;
+    width: 120px;
+    text-align: center;
+    transition: 0.6s;
+    border: 1px rgb(77, 76, 74);
+    color: rgb(77, 76, 74);
+    background-color: rgb(77, 76, 74);
+    margin-inline: 20px ;
+}
+input:hover{
+    height: 30px;
+    margin-inline: 20px ;
+    border-radius: 20px;
+    font-size:small;
+    font-weight: bold;
+    width: 120px;
+    text-align: center;
+    border: 1px solid red;
+    color: black;
+}
+button{
+    height: 30px;
+    margin-inline: 20px ;
+    border-radius: 20px;
+    font-size:small;
+    font-weight: bold;
+    width: 120px;
+    text-align: center;
+    border: 1px solid rgb(77, 76, 74);
+    transition: 1s;
+    color: black;
+    background-color: rgb(77, 76, 74);
+}
+button:hover{
+    height: 30px;
+    margin-inline: 20px ;
+    border-radius: 20px;
+    font-size:small;
+    font-weight: bold;
+    width: 120px;
+    text-align: center;
+    border: 1px solid black;
+    background-color:red;
+    color: black;
+    cursor:grab;
+}
+.cont{
+    background-color: red;
+    height: fit-content;
+    width: max-content;
+    margin: auto;
+    padding: 5px;
+    border-radius: 30px;
+    cursor:not-allowed;
+}
+.cont:hover{
+    background-color: rgb(77, 76,74);
+    height: fit-content;
+    width: max-content;
+    margin: auto;
+    padding: 5px;
+    border-radius: 30px;
+}
+.container{
+    border-radius: 30px;
+    transition: 1.3s;
+    background-color:red;
+    border: solid 5px rgb(77, 76,100);
+    color: rgb(77, 76, 74);
+    text-decoration: underline rgb(77, 76, 74);
+    height: 5px;
+    width: max-content;
+    margin: auto;
+}
+.container:hover{
+    border-radius: 30px;
+    border: solid 5px red;
+    height: 500px;
+    background-color:rgb(77, 76,100);
+    width: max-content;
+    color: black;
+}
